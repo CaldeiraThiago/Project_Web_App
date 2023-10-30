@@ -1,0 +1,8 @@
+version: '3.9'
+services:
+  apache:
+    image: thiagocaldeira/web-app-nginx:1.0
+    container_name: container_nginx
+    ports:
+      - "80:80"
+
